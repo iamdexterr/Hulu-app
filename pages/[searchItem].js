@@ -3,7 +3,7 @@ import { useRouter } from "next/router"
 import { useEffect,useState } from "react";
 import requests from "../utils/requests";
 
-const searchResults = () => {
+const SearchResults = () => {
 
 
   const [results,setResults] = useState([]);
@@ -29,4 +29,4 @@ const searchResults = () => {
   )
 }
 
-export default searchResults
+export default SearchResults
